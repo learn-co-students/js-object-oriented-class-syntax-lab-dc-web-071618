@@ -4,8 +4,8 @@ describe('boardMembers', function() {
   let polishedBoardMember;
   let backSlappingGene;
   before(() => {
-    polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
-    backSlappingGene = new BoardMember("Mr. Gene", "Delaware", "business")
+    polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
+    backSlappingGene = new BoardMember("Mr. Gene", "Delaware", "business");
   })
 
   describe('boardMember class', function() {
@@ -61,10 +61,10 @@ describe('boardMembers', function() {
 describe('Ceo class', function() {
   let ceo
   let polishedBoardMember
-  
+
   before(() => {
-    ceo = new Ceo("Mr. Ceo", "South Carolina", "business")
-    polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
+    ceo = new Ceo("Mr. Ceo", "South Carolina", "business");
+    polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
   })
 
   describe('Ceo class', function() {
